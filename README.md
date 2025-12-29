@@ -1,6 +1,7 @@
 # PointPillars-3D-Object-Detection-on-nuScenes
 This repository contains a from-scratch PyTorch implementation of the PointPillars 3D object detection pipeline using LiDAR point clouds from the nuScenes mini dataset.
 
+<<<<<<< HEAD
 ![alt text](<Screenshot 2025-12-29 122549.jpg>)
 
 ![alt text](<Screenshot 2025-12-29 122910.jpg>)
@@ -27,6 +28,22 @@ This repository contains a from-scratch PyTorch implementation of the PointPilla
 
 * Built and tested on nuScenes v1.0 mini
 
+=======
+**Project Highlights**:
+
+* End-to-end PointPillars architecture implemented in PyTorch
+
+* LiDAR pillarization (voxelization in BEV) and feature encoding
+ 
+* Dense BEV convolutional backbone with anchor-based detection heads
+
+* GPU-optimized training and inference pipeline
+
+* Rich Open3D visualizations for debugging and interpretability
+
+* Built and tested on nuScenes v1.0 mini
+
+>>>>>>> 808133e3f636339c837ccb654bdd46ee9c6edb05
 ## Repository Structure
 ```.
 ├── configs/
