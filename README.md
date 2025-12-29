@@ -15,7 +15,7 @@ Rich Open3D visualizations for debugging and interpretability
 
 Built and tested on nuScenes v1.0 mini
 
-# Repository Structure
+## Repository Structure
 ```.
 ├── configs/
 │   └── pointpillars.yaml
@@ -43,7 +43,7 @@ Built and tested on nuScenes v1.0 mini
 └── README.md
 ```
 
-# Installation
+## Installation
 
 git clone https://github.com/your-username/pointpillars-nuscenes.git
 cd pointpillars-nuscenes
@@ -53,18 +53,20 @@ conda create -n pointpillars python=3.9
 conda activate pointpillars
 pip install torch numpy open3d nuscenes-devkit pyyaml
 
-# Dataset Setup (nuScenes Mini)
+## Dataset Setup (nuScenes Mini)
 Download nuScenes v1.0 mini from the official site
 
 Set the dataset directory:
 ```export NUSCENES_ROOT=/path/to/nuscenes```
 
-# Training
-```python train.py```
+## Training
+```python train.py
+```
 
 
-# Inference & Visualization
-```python inference.py```
+## Inference & Visualization
+```python inference.py
+```
 
 Loads trained .pth checkpoint
 
@@ -72,7 +74,7 @@ Decodes anchors into 3D bounding boxes
 
 Visualizes predictions using Open3D
 
-# Example Visualizations
+## Example Visualizations
 
 Raw LiDAR point clouds
 
