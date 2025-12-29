@@ -40,7 +40,8 @@ Built and tested on nuScenes v1.0 mini
 │
 ├── train.py
 ├── inference.py
-└── README.md```
+└── README.md
+```
 
 # Installation
 
